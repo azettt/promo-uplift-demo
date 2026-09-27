@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# The raw e-mail test is fetched by whoever rebuilds the table, never committed.
+data/raw/
+# Written by the pipeline next to the demo table; they hold customer rows.
+data/test_half.csv
+data/uplift_by_buyer_type.csv
